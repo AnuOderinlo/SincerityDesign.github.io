@@ -5,7 +5,7 @@
 var height, width, color, button;
 
 button = $('#submit');
-
+// getting the value of height, width, color and calling the makeGrid function when the button is clicked
 button.click(function(event) {
 	event.preventDefault();
 	height = $('#inputHeight').val();
@@ -15,11 +15,8 @@ button.click(function(event) {
 
 });
 
-
-
 function makeGrid(height, width) {
-	// console.log('grid is working');
-
+	
 	// creating the grid/table
 	$('tr').remove();
 	for (var h = 1; h <= height; h++) {
