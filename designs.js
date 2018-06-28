@@ -19,14 +19,14 @@ function makeGrid(height, width) {
 	
 	// creating the grid/table
 	$('tr').remove();
-	var h = 1
+	var h = 1;
 	while (h <= height) {
 		$('#pixelCanvas').append('<tr></tr>');
 			for (var w = 1; w <= width; w++) {
 			$('tr:last').append("<td></td>");
 		}
 		h++;
-	}}
+	}
 
 	// creating the color colorPicker
 
