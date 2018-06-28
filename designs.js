@@ -24,7 +24,6 @@ function makeGrid(height, width) {
 		$('#pixelCanvas').append('<tr></tr>');
 			for (var w = 1; w <= width; w++) {
 			$('tr:last').append("<td></td>");
-
 		}
 		h++;
 	}}
