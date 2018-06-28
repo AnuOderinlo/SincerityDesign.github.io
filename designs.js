@@ -6,7 +6,7 @@ var height, width, color, button;
 
 button = $('#submit');
 
-button.click(function() {
+button.click(function(event) {
 	event.preventDefault();
 	height = $('#inputHeight').val();
 	width = $('#inputWeight').val();
@@ -21,7 +21,7 @@ function makeGrid(height, width) {
 	// console.log('grid is working');
 
 	// creating the grid/table
-	// $('tr').remove();
+	$('tr').remove();
 	for (var h = 1; h <= height; h++) {
 		$('#pixelCanvas').append('<tr></tr>');
 		for (var w = 1; w <= width; w++) {
