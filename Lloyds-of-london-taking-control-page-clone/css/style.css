@@ -30,6 +30,7 @@
 	/*padding: 10px;*/
 	font-size: 18px;
 	color: #fff;
+	text-decoration: none;
 	background-color: black; 
 }
 
@@ -79,7 +80,11 @@
 }
 #search-icon{
 	background-image: url("../images/search.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
 	display: inline-block;
+	margin-right: 5px;
+  margin-top: 5px;
 	width: 25px;
 	height: 25px;
 }
@@ -171,6 +176,14 @@
 .share-icon{
 	padding-left: 20px; 
 	color: #0c4ab5;
+	cursor: pointer;
+}
+.share{
+	background-image: url("../images/share.svg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
 }
 .take-control_row1{
 	padding-bottom: 30px;
