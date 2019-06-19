@@ -1,0 +1,246 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 980px;
+}
+
+.primary-menu{
+	/*overflow: hidden;*/
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-between;*/
+	/*align-items: center;*/
+	margin-bottom: 24px;
+}
+.logo{
+	display: flex;
+	/*padding: 10px;*/
+	/*height: 38px;*/
+	width: 93px;
+	background-color: black; 
+	justify-content: center;
+}
+.logo a{
+	font-family: "Merriweather", serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	align-self: center;
+	/*padding: 10px;*/
+	font-size: 18px;
+	color: #fff;
+	background-color: black; 
+}
+
+.primary-list{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 0;
+	margin-left: 15px;
+	flex-grow: 2
+}
+/*.primary-list{
+	float: left;
+	padding-left: 10px;
+	list-style: none;
+}*/
+
+.primary-list li{
+	display: inline-block;
+	list-style: none;
+	padding: 7px 0;
+}
+
+.primary-list li a{
+	color: black;
+	font-size: 12px;
+	border-right: 1px solid #ccc;
+	padding: 0 10px;
+	display: inline-block;
+	height: 10px; 
+}
+
+.search{
+	display: inline-block;
+	width: 130px;
+	/*padding:10px;*/
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #282f54;
+}
+
+.search input{
+	background-color: #f1f1f1;
+	padding-left:10px;
+	width: 100%;
+	height: 38px;
+	border: none;
+}
+#search-icon{
+	background-image: url("../images/search.svg");
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+
+.secondary-list{
+	position: relative;
+	list-style: none;
+	border-top: 1px solid #282f54;
+	margin-bottom: 40px;
+}
+.secondary-list li{
+	display: inline;
+}
+.secondary-menu{
+	/*overflow: hidden;*/
+}
+.secondary-item{
+	cursor: pointer;
+	background-color: #282f54;
+	padding: 0.5em 3px;/* 1em = 16px, 11/16*/
+	display: inline-block;
+	float: left;
+	width: 20%;
+	text-align: center;
+	color: #fff!important;
+	border-right: 1px solid #f1f1f1;
+}
+.secondary-item:hover{
+	background-color: #f1f1f1;
+	color: black!important;
+	text-decoration: underline;
+}
+.active{
+	background-color: #dfe0e6;
+	color: #282f54!important;
+	font-weight: bolder;
+}
+
+.secondary-item a{
+	text-decoration: none;
+	font-weight: bolder;
+}
+.secondary-item a:hover{
+	text-decoration: underline;
+	color: inherit;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.dropdown-secondary{
+	background-color: #f1f1f1;
+	width: 100%;
+	position: absolute;
+	top:40px;
+	left: 0;
+	z-index: 2;
+	display: none;
+	box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
+	padding: 20px 30px;
+}
+.dropdown-secondary h2{
+	font-size: 1em;
+	border-bottom: 1px solid #282f54;
+	padding-bottom: 15px;
+}
+.para{
+	position: relative;
+	z-index: 1;
+}
+
+.take-control{
+	background-color: #f1f1f1;
+}
+
+.take-control_container{
+	z-index: 1;
+	padding-bottom: 12px;
+}
+.take-control_link{
+	padding: 21px 0;
+}
+.take-control_link a{
+	color: #909090;
+	text-decoration: none;
+}
+.take-control_body h1{
+	font-size: 3em;
+	padding: 12px 0;
+}
+.share-icon{
+	padding-left: 20px; 
+	color: #0c4ab5;
+}
+.take-control_row1{
+	padding-bottom: 30px;
+}
+.take-control_row1 img{
+	box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
+	margin-left: 8px;
+}
+.take-control_row2{
+	padding-top: 30px;
+}
+.take-control_row2 img{
+	box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
+	margin-left: 8px;
+}
+.button{
+	background-color: #0a4bb7;
+	color: #fff;
+	padding: 1.1em 1.2em;
+	margin-top: 6px;
+	display: inline-block;
+	text-decoration: none;
+}
+.button:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer{
+	background-color: #141414;
+	color: #ffff;
+	padding: 20px 0;
+	margin-top: 60px;
+}
+.footer-menu ul{
+	list-style: none
+}
+.footer-menu ul li{
+	display: inline;
+}
+.footer-menu ul li a{
+	color: inherit;
+	text-decoration: none;
+}
+.social-media{
+	padding-top: 10px;
+}
+.social-media ul{
+	list-style: none
+}
+.social-media ul li{
+	display: inline;
+	word-spacing: 10px;
+}
+
+#tw{
+	background-image: url("../images/twitter.svg");
+}
+#fb{
+	background-image: url("../images/facebook.svg");
+}
+#ln{
+	background-image: url("../images/linkedin.svg");
+}
+#yt{
+	background-image: url("../images/youtube.svg");
+}
+
+.icon{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
