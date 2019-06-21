@@ -23,17 +23,12 @@
 }
 
 .primary-menu{
-	/*overflow: hidden;*/
 	display: flex;
 	flex-direction: row;
-	/*justify-content: space-between;*/
-	/*align-items: center;*/
 	margin-bottom: 24px;
 }
 .logo{
 	display: flex;
-	/*padding: 10px;*/
-	/*height: 38px;*/
 	width: 93px;
 	background-color: black; 
 	justify-content: center;
@@ -43,7 +38,6 @@
 	font-weight: 200;
 	text-transform: uppercase;
 	align-self: center;
-	/*padding: 10px;*/
 	font-size: 18px;
 	color: #fff;
 	text-decoration: none;
@@ -58,11 +52,6 @@
 	margin-left: 15px;
 	flex-grow: 2
 }
-/*.primary-list{
-	float: left;
-	padding-left: 10px;
-	list-style: none;
-}*/
 
 .primary-list li{
 	display: inline-block;
@@ -82,7 +71,6 @@
 .search{
 	display: inline-block;
 	width: 130px;
-	/*padding:10px;*/
 	background-color: #f1f1f1;
 	border-bottom: 1px solid #282f54;
 }
@@ -114,9 +102,7 @@
 .secondary-list li{
 	display: inline;
 }
-.secondary-menu{
-	/*overflow: hidden;*/
-}
+
 .secondary-item{
 	cursor: pointer;
 	background-color: #282f54;
